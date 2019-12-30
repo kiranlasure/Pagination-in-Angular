@@ -1,0 +1,16 @@
+Pagination can be implted with the <jw-pagination> component that comes 
+with the jw-angular-pagination package which is available on npm.
+
+step 1; install package and import it
+
+Important Thing: It Reqyired two properties FOR using it.
+Items : The array of items to be paged(It means how many item item
+include in one page.)
+
+changepage: call back function for handling change event
+
+0--other Properties: 
+***** pageSize: The items displayed on each page
+ **** maxPages: The max number of page links to displayed
+                in Navigation(Default to 10)
+***** initial page: The initial page to be displayed
